@@ -30,7 +30,7 @@ export const twConfig = defineConfig({
     sidebarMenuLabel: '菜單',
 
     editLink: {
-      pattern: 'https://github.com/YuleBest/KWGT-Wiki/edit/main/:path',
+      pattern: 'https://github.com/YuleBest/KWGT-Wiki/edit/main/docs/:path',
       text: '在 GitHub 上編輯此頁',
     },
 

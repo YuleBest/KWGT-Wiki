@@ -30,7 +30,7 @@ export const zhConfig = defineConfig({
     sidebarMenuLabel: '菜单',
 
     editLink: {
-      pattern: 'https://github.com/YuleBest/KWGT-Wiki/edit/main/:path',
+      pattern: 'https://github.com/YuleBest/KWGT-Wiki/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 
