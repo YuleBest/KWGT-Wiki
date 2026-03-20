@@ -1,0 +1,35 @@
+{
+  "name": "kwgt-wiki",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm convert:tw && vitepress dev",
+    "build": "pnpm convert:tw && vitepress build",
+    "preview": "vitepress preview",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "lint-type": "oxlint --type-aware",
+    "lint-type:fix": "oxlint --type-aware --fix",
+    "convert:tw": "node scripts/convert-to-tw.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/opencc-js": "^1.0.3",
+    "fast-glob": "^3.3.3",
+    "opencc-js": "^1.0.5",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "oxlint-tsgolint": "^0.17.1",
+    "shiki": "^4.0.2",
+    "vitepress": "2.0.0-alpha.17"
+  },
+  "packageManager": "pnpm@10.32.0"
+}

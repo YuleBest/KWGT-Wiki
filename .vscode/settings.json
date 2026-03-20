@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/cache": true,
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/cache": true,
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "pnpm-lock.yaml, pnpm-workspace.yaml, .editorconfig, .gitignore",
+    ".oxlintrc.json": ".oxfmtrc.json",
+  },
+  "editor.formatOnSave": true,
+  "oxc.fmt.configPath": ".oxfmtrc.json",
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "oxc.typeAware": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}

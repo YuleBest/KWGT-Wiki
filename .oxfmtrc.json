@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [
+    "node_modules",
+    "**/cache",
+    "**/dist",
+    ".git",
+    ".vscode",
+    "**/*.json",
+  ],
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true
+}

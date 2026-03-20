@@ -1,0 +1,7 @@
+[*.kwgt]
+
+tab_width = 4
+
+[*.json]
+
+tab_width = 2

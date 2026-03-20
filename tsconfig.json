@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+  },
+  "include": [
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.mts",
+    ".vitepress/**/*.vue",
+    "scripts/**/*.ts",
+    "docs/**/*.md",
+  ],
+}
