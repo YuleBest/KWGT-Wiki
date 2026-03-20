@@ -6,7 +6,9 @@ import { kwgtLang } from './theme/shiki-kwgt.mjs'
 
 export default defineConfig({
   ...zhConfig,
+
   srcDir: 'docs',
+  outDir: 'dist',
 
   title: 'KWGT Wiki',
   base: '/',
