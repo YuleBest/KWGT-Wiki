@@ -11,14 +11,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "pnpm convert:tw && vitepress dev",
     "build": "pnpm convert:tw && vitepress build",
-    "preview": "vitepress preview",
+    "preview": "wrangler dev",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "lint-type": "oxlint --type-aware",
     "lint-type:fix": "oxlint --type-aware --fix",
-    "convert:tw": "tsx scripts/convert-to-tw.ts"
+    "convert:tw": "tsx scripts/convert-to-tw.ts",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
@@ -30,7 +31,8 @@
     "oxlint-tsgolint": "^0.17.1",
     "shiki": "^4.0.2",
     "tsx": "^4.21.0",
-    "vitepress": "2.0.0-alpha.17"
+    "vitepress": "2.0.0-alpha.17",
+    "wrangler": "^4.75.0"
   },
   "packageManager": "pnpm@10.32.0"
 }
